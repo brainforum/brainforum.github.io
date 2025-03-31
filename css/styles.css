@@ -16,6 +16,8 @@
 #89a454 is the light green
 */
 :root {
+  --ds-green-light: #89a454;
+  --ds-green-dark: #0a6153;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -11143,7 +11145,7 @@ header.masthead .masthead-heading {
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
-  background-color: #ffc800;
+  background-color: var(--ds-green-dark);
 }
 .timeline > li .person {
   border-radius: 100%;
